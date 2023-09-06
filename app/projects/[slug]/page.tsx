@@ -10,7 +10,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
   return (
     <div className='relative pb-16'>
-      <Particles className='absolute inset-0 -z-10 animate-fade-in' quantity={2000} />
+      <Particles className='absolute inset-0 -z-10' quantity={2000} />
       <Navigation goBackLink='/projects' />
       <div className='px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32'>
         <Card>
