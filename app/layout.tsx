@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import "../global.css";
 import { Inter } from "@next/font/google";
@@ -42,7 +42,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut:
+      "https://avatars.mds.yandex.net/i?id=efb685e8f6ca987fd6c25746062b3d399f7045bf-9065925-images-thumbs&n=13",
+    // shortcut: "/R-letter.png",
   },
 };
 const inter = Inter({
