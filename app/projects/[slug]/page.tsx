@@ -14,7 +14,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         <Card>
           <article className='relative w-full h-full p-4 md:p-8'>
             <div className='flex items-center justify-between gap-2'>
-              <div className='text-xs text-zinc-100'></div>
+              <div className='text-xs text-zinc-100'></div>{" "}
             </div>
 
             <h2
