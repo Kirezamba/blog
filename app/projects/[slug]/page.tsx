@@ -24,12 +24,12 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               {item?.title}
             </h2>
 
-            {item?.benefits.map(i => (
+            {item?.benefits.map((item, index) => (
               <p
-                key={i}
+                key={index}
                 className='mt-4 mb-10 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'
               >
-                {i}
+                {item}
               </p>
             ))}
             <p className='mt-4 mb-10 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'>
