@@ -8,7 +8,7 @@ import Particles from "../components/particles";
 export default async function ProjectsPage() {
   return (
     <div className='relative pb-16'>
-      <Particles className='absolute inset-0 -z-10' quantity={2000} />
+      <Particles className='absolute inset-0 -z-10' quantity={300} />
       <Navigation goBackLink='/' />
       <div className='mt-5 px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32'>
         <div className='max-w-2xl mx-auto lg:mx-0'>
