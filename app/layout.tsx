@@ -1,3 +1,5 @@
+"use client";
+
 import "../global.css";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
@@ -5,18 +7,18 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Rarrikate",
+    template: "%s | Rarrikate",
   },
-  description: "Software engineer at upstash.com and founder of planetfall.io",
+  description: "Преподаватель немецкого",
   openGraph: {
-    title: "chronark.com",
-    description: "Software engineer at upstash.com and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "Rarrikate",
+    description: "Преподаватель немецкого",
+    url: "https://Rarrikate",
+    siteName: "Rarrikate",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://Rarrikate/og.png",
         width: 1920,
         height: 1080,
       },
