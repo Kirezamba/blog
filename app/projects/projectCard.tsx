@@ -33,8 +33,14 @@ export const ProjectCard: React.FC<GoodsCardProps> = ({ description, slug, title
           <p className='mt-4 mb-10 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'>
             {description}
           </p>
+          <p className='mt-4 mb-10 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'>
+            {description}
+          </p>
+          <p className='mt-4 mb-10 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'>
+            {description}
+          </p>
           <div className='absolute bottom-4 md:bottom-8'>
-            <p className='hidden text-zinc-200 hover:text-zinc-50 lg:block'>
+            <p className='text-zinc-200 hover:text-zinc-50 lg:block'>
               Узнать подробнее <span aria-hidden='true'>&rarr;</span>
             </p>
           </div>

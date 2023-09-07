@@ -1,4 +1,4 @@
-import { GoodsCardProps } from "../projects/projectCard";
+import { GoodsCardProps } from "../app/projects/projectCard";
 
 export const projects: GoodsCardProps[] = [
   {

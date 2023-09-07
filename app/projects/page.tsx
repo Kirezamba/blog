@@ -2,7 +2,7 @@
 
 import { Navigation } from "../components/nav";
 import { ProjectCard } from "./projectCard";
-import { projects } from "../static/projects";
+import { projects } from "../../constants/projects";
 import Particles from "../components/particles";
 
 export default async function ProjectsPage() {

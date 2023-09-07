@@ -3,7 +3,7 @@
 import { Card } from "@/app/components/card";
 import { Navigation } from "@/app/components/nav";
 import Particles from "@/app/components/particles";
-import { projects } from "@/app/static/projects";
+import { projects } from "@/constants/projects";
 
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const item = projects.find(c => c.slug === params.slug);
@@ -37,6 +37,11 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             <p className='mt-4 mb-10 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300'>
               Стоимость: {item?.price} р
             </p>
+            <div className='absolute bottom-4 md:bottom-8'>
+              <p className='text-zinc-200 hover:text-zinc-50 lg:block'>
+                Узнать подробнее <span aria-hidden='true'>&rarr;</span>
+              </p>
+            </div>
           </article>
         </Card>
       </div>
